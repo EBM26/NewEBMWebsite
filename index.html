@@ -1,0 +1,175 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Your Name</title>
+  <link rel="stylesheet" href="style.css" />
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link href="https://fonts.googleapis.com/css2?family=Cormorant+Garamond:ital,wght@0,300;0,400;0,600;1,300;1,400&family=DM+Mono:wght@300;400&display=swap" rel="stylesheet" />
+</head>
+<body>
+
+  <!-- NAV -->
+  <header class="nav-header">
+    <a href="#" class="nav-logo">Your Name</a>
+    <nav class="nav-links" id="navLinks">
+      <a href="#about">About</a>
+      <a href="#work">Work</a>
+      <a href="#contact">Contact</a>
+    </nav>
+    <button class="hamburger" id="hamburger" aria-label="Toggle menu" aria-expanded="false">
+      <span></span>
+      <span></span>
+      <span></span>
+    </button>
+  </header>
+
+  <!-- MOBILE MENU OVERLAY -->
+  <div class="mobile-menu" id="mobileMenu">
+    <nav>
+      <a href="#about" class="mobile-link" onclick="closeMenu()">About</a>
+      <a href="#work" class="mobile-link" onclick="closeMenu()">Work</a>
+      <a href="#contact" class="mobile-link" onclick="closeMenu()">Contact</a>
+    </nav>
+  </div>
+
+  <main>
+
+    <!-- HERO -->
+    <section class="hero">
+      <div class="hero-content">
+        <p class="hero-eyebrow">Resume / CV</p>
+        <h1 class="hero-name">Your<br /><em>Name</em></h1>
+        <p class="hero-title">Designer &amp; Developer</p>
+        <p class="hero-desc">I build thoughtful digital experiences with a focus on clarity, craft, and purpose.</p>
+        <a href="#work" class="btn-primary">View My Work</a>
+      </div>
+      <div class="hero-visual" aria-hidden="true">
+        <div class="hero-ring ring-1"></div>
+        <div class="hero-ring ring-2"></div>
+        <div class="hero-ring ring-3"></div>
+        <div class="hero-initials">YN</div>
+      </div>
+    </section>
+
+    <!-- ABOUT -->
+    <section class="section" id="about">
+      <div class="section-inner">
+        <div class="section-label">01 — About</div>
+        <div class="about-grid">
+          <div class="about-text">
+            <h2>A little about <em>me</em></h2>
+            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris.</p>
+            <p>Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident.</p>
+            <div class="skills-row">
+              <span class="skill-tag">Strategy</span>
+              <span class="skill-tag">Design</span>
+              <span class="skill-tag">Development</span>
+              <span class="skill-tag">Leadership</span>
+            </div>
+          </div>
+          <div class="about-photo">
+            <div class="photo-placeholder" aria-label="Profile photo">
+              <div class="photo-inner">
+                <svg viewBox="0 0 80 80" fill="none" xmlns="http://www.w3.org/2000/svg">
+                  <circle cx="40" cy="28" r="14" stroke="currentColor" stroke-width="1.5"/>
+                  <path d="M10 72c0-16.569 13.431-30 30-30s30 13.431 30 30" stroke="currentColor" stroke-width="1.5" stroke-linecap="round"/>
+                </svg>
+                <p>Photo</p>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- DIVIDER -->
+    <div class="section-divider"></div>
+
+    <!-- WORK -->
+    <section class="section" id="work">
+      <div class="section-inner">
+        <div class="section-label">02 — Work</div>
+        <h2>Selected <em>Projects</em></h2>
+        <div class="work-grid">
+
+          <article class="work-card">
+            <div class="work-card-image" style="background: linear-gradient(135deg, #1a1a2e 0%, #16213e 100%);">
+              <span class="work-year">2024</span>
+            </div>
+            <div class="work-card-body">
+              <h3>Project Title One</h3>
+              <p>A brief description of this project, the problem it solved, and the impact it created.</p>
+              <div class="work-tags">
+                <span>Research</span>
+                <span>UX</span>
+                <span>Development</span>
+              </div>
+            </div>
+          </article>
+
+          <article class="work-card">
+            <div class="work-card-image" style="background: linear-gradient(135deg, #0f2027 0%, #203a43 50%, #2c5364 100%);">
+              <span class="work-year">2023</span>
+            </div>
+            <div class="work-card-body">
+              <h3>Project Title Two</h3>
+              <p>A brief description of this project, the problem it solved, and the impact it created.</p>
+              <div class="work-tags">
+                <span>Strategy</span>
+                <span>Design</span>
+              </div>
+            </div>
+          </article>
+
+          <article class="work-card">
+            <div class="work-card-image" style="background: linear-gradient(135deg, #1c1c1c 0%, #333333 100%);">
+              <span class="work-year">2023</span>
+            </div>
+            <div class="work-card-body">
+              <h3>Project Title Three</h3>
+              <p>A brief description of this project, the problem it solved, and the impact it created.</p>
+              <div class="work-tags">
+                <span>Branding</span>
+                <span>Motion</span>
+              </div>
+            </div>
+          </article>
+
+        </div>
+      </div>
+    </section>
+
+    <!-- DIVIDER -->
+    <div class="section-divider"></div>
+
+    <!-- CONTACT -->
+    <section class="section section-contact" id="contact">
+      <div class="section-inner contact-inner">
+        <div class="section-label">03 — Contact</div>
+        <h2>Let's work <em>together</em></h2>
+        <p class="contact-sub">I'm always open to new opportunities, collaborations, and interesting conversations.</p>
+        <a href="mailto:hello@yourname.com" class="contact-email">hello@yourname.com</a>
+        <div class="social-row">
+          <a href="#" class="social-link">LinkedIn</a>
+          <span class="social-dot">·</span>
+          <a href="#" class="social-link">GitHub</a>
+          <span class="social-dot">·</span>
+          <a href="#" class="social-link">Twitter</a>
+        </div>
+      </div>
+    </section>
+
+  </main>
+
+  <!-- FOOTER -->
+  <footer class="footer">
+    <span>© 2026 Your Name</span>
+    <span>Built with care</span>
+  </footer>
+
+  <script src="script.js"></script>
+</body>
+</html>
