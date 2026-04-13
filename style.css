@@ -19,7 +19,7 @@
   --font-serif:  'Cormorant Garamond', Georgia, serif;
   --font-mono:   'DM Mono', 'Courier New', monospace;
   --nav-h:       72px;
-  --max-w:       1100px;
+  --max-w:       1280px;
   --radius:      4px;
 }
 
@@ -31,7 +31,7 @@ html {
 body {
   background-color: var(--bg);
   color: var(--text);
-  font-family: var(--font-serif);
+  font-family: sans-serif;
   line-height: 1.7;
   -webkit-font-smoothing: antialiased;
   overflow-x: hidden;
@@ -47,6 +47,8 @@ body::before {
   z-index: 9999;
   opacity: 0.6;
 }
+
+img{max-width: 100%;}
 
 /* ─── NAVIGATION ────────────────────────────────────────────────────────────── */
 
@@ -87,7 +89,7 @@ body::before {
 
 .nav-links a {
   font-family: var(--font-mono);
-  font-size: 0.72rem;
+  font-size: 16px;
   letter-spacing: 0.12em;
   text-transform: uppercase;
   color: var(--text-soft);
@@ -362,15 +364,26 @@ body::before {
 
 .skill-tag {
   font-family: var(--font-mono);
-  font-size: 0.65rem;
+  font-size: 13px;
   letter-spacing: 0.12em;
   text-transform: uppercase;
-  color: var(--accent);
-  background: var(--accent-dim);
+  color: #FFF;
+  background: #07C6FC;
   padding: 0.45rem 1rem;
   border-radius: 2px;
   border: 1px solid rgba(201,169,110,0.2);
+  width: 23%;
+  font-weight: bold;
+  text-align: center;
+  transition: transform 0.2s;
+  cursor: pointer;
 }
+
+.skill-tag:hover {
+  transform: translateY(-3px);
+}
+
+.skill-tag a{text-decoration: none; color: inherit;}
 
 .about-photo {
   position: sticky;
@@ -493,7 +506,6 @@ body::before {
   font-size: 1.1rem;
   font-weight: 300;
   color: var(--text-soft);
-  max-width: 480px;
   margin: 0 auto 2.5rem;
   line-height: 1.8;
 }
@@ -519,12 +531,11 @@ body::before {
 .social-row {
   display: flex;
   align-items: center;
-  justify-content: center;
   gap: 1rem;
 }
 .social-link {
   font-family: var(--font-mono);
-  font-size: 0.7rem;
+  font-size: 14px;
   letter-spacing: 0.12em;
   text-transform: uppercase;
   color: var(--text-muted);
@@ -597,3 +608,9 @@ body::before {
     text-align: center;
   }
 }
+
+
+ /* My CSS */
+
+ .nav-logo img {max-width: 10%;}
+ .martop30{margin-top: 30px;}

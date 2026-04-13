@@ -50,3 +50,7 @@ const navObserver = new IntersectionObserver(
 );
 
 sections.forEach(s => navObserver.observe(s));
+
+
+  // copyright date function
+  document.getElementById("date").innerHTML = new Date().getFullYear();

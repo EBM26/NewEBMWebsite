@@ -3,8 +3,10 @@
 <head>
   <meta charset="UTF-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-  <title>Your Name</title>
+  <title>Home | Eyal Benmoshe | astrology | recipes | links</title>
+  <meta name="description" content="Eyal Benmoshe is an SEO specialist with a passion for astrology, cooking, and self-growth.">
   <link rel="stylesheet" href="style.css" />
+  <link rel="icon" type="image/x-icon" href="images/Favicon4.png">
   <link rel="preconnect" href="https://fonts.googleapis.com" />
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
   <link href="https://fonts.googleapis.com/css2?family=Cormorant+Garamond:ital,wght@0,300;0,400;0,600;1,300;1,400&family=DM+Mono:wght@300;400&display=swap" rel="stylesheet" />
@@ -13,11 +15,11 @@
 
   <!-- NAV -->
   <header class="nav-header">
-    <a href="#" class="nav-logo">Your Name</a>
+    <a href="/" class="nav-logo"><img src="images/FullLogo1SVG.svg" alt="Eyal Benmoshe logo"></a>
     <nav class="nav-links" id="navLinks">
-      <a href="#about">About</a>
-      <a href="#work">Work</a>
-      <a href="#contact">Contact</a>
+      <a href="astrology/index.html">Astrology</a>
+      <a href="recipes/index.html">Recipes</a>
+      <a href="#links">Links</a>
     </nav>
     <button class="hamburger" id="hamburger" aria-label="Toggle menu" aria-expanded="false">
       <span></span>
@@ -29,9 +31,9 @@
   <!-- MOBILE MENU OVERLAY -->
   <div class="mobile-menu" id="mobileMenu">
     <nav>
-      <a href="#about" class="mobile-link" onclick="closeMenu()">About</a>
-      <a href="#work" class="mobile-link" onclick="closeMenu()">Work</a>
-      <a href="#contact" class="mobile-link" onclick="closeMenu()">Contact</a>
+      <a href="astrology/index.html" class="mobile-link" onclick="closeMenu()">Astrology</a>
+      <a href="recipes/index.html" class="mobile-link" onclick="closeMenu()">Recipes</a>
+      <a href="#links" class="mobile-link" onclick="closeMenu()">Links</a>
     </nav>
   </div>
 
@@ -40,46 +42,42 @@
     <!-- HERO -->
     <section class="hero">
       <div class="hero-content">
-        <p class="hero-eyebrow">Resume / CV</p>
-        <h1 class="hero-name">Your<br /><em>Name</em></h1>
-        <p class="hero-title">Designer &amp; Developer</p>
-        <p class="hero-desc">I build thoughtful digital experiences with a focus on clarity, craft, and purpose.</p>
-        <a href="#work" class="btn-primary">View My Work</a>
+        <h1 class="hero-name">Eyal<br /><em>Benmoshe</em></h1>
+        <p class="hero-title">SEO Specialist | Astrology hobbyist | amatuer chef</p>
+        <p class="hero-desc">Eyal Benmoshe is an SEO specialist with a passion for astrology, cooking, and self-growth. This website is to share with the world the insights, wisdom, and popular recipes I've learned over the years.</p>
+        <a href="#links" class="btn-primary">Contact Links</a>
       </div>
       <div class="hero-visual" aria-hidden="true">
-        <div class="hero-ring ring-1"></div>
-        <div class="hero-ring ring-2"></div>
-        <div class="hero-ring ring-3"></div>
-        <div class="hero-initials">YN</div>
+        <img src="images/MyImage2.png" alt="Eyal Benmoshe">
       </div>
     </section>
 
     <!-- ABOUT -->
-    <section class="section" id="about">
+    <section class="section" id="astrology">
       <div class="section-inner">
-        <div class="section-label">01 — About</div>
         <div class="about-grid">
           <div class="about-text">
-            <h2>A little about <em>me</em></h2>
-            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris.</p>
-            <p>Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident.</p>
+            <h2>A little <em>astrology</em></h2>
+            <p>Long ago when I was young and full of curiosity, I stumbled across a book that would change my life. It was "Love Signs" by Linda Goodman and it had helped me get through a VERY tough breakup by showing me the insights to each of our signs.</p>
+            <p>Since then, I devoured all the books I could find about astrology. Then I began to write a summary of each sign so I can refrence it when needed. When people found out I had these summaries, they would ask me for them constantly. Now I am sharing them with the world.</p>
             <div class="skills-row">
-              <span class="skill-tag">Strategy</span>
-              <span class="skill-tag">Design</span>
-              <span class="skill-tag">Development</span>
-              <span class="skill-tag">Leadership</span>
+              <span class="skill-tag"><a href="astrology/aries.html">Aries</a></span>
+              <span class="skill-tag"><a href="astrology/taurus.html">Taurus</a></span>
+              <span class="skill-tag"><a href="astrology/gemini.html">Gemini</a></span>
+              <span class="skill-tag"><a href="astrology/cancer.html">Cancer</a></span>
+              <span class="skill-tag"><a href="astrology/leo.html">Leo</a></span>
+              <span class="skill-tag"><a href="astrology/virgo.html">Virgo</a></span>
+              <span class="skill-tag"><a href="astrology/libra.html">Libra</a></span>
+              <span class="skill-tag"><a href="astrology/scorpio.html">Scorpio</a></span>
+              <span class="skill-tag"><a href="astrology/sagittarius.html">Sagittarius</a></span>
+              <span class="skill-tag"><a href="astrology/capricorn.html">Capricorn</a></span>
+              <span class="skill-tag"><a href="astrology/aquarius.html">Aquarius</a></span>
+              <span class="skill-tag"><a href="astrology/pisces.html">Pisces</a></span>
+
             </div>
           </div>
           <div class="about-photo">
-            <div class="photo-placeholder" aria-label="Profile photo">
-              <div class="photo-inner">
-                <svg viewBox="0 0 80 80" fill="none" xmlns="http://www.w3.org/2000/svg">
-                  <circle cx="40" cy="28" r="14" stroke="currentColor" stroke-width="1.5"/>
-                  <path d="M10 72c0-16.569 13.431-30 30-30s30 13.431 30 30" stroke="currentColor" stroke-width="1.5" stroke-linecap="round"/>
-                </svg>
-                <p>Photo</p>
-              </div>
-            </div>
+            <img src="astrology/images/astromigo-logo.png" alt="">
           </div>
         </div>
       </div>
@@ -89,10 +87,12 @@
     <div class="section-divider"></div>
 
     <!-- WORK -->
-    <section class="section" id="work">
+    <section class="section" id="recipes">
       <div class="section-inner">
-        <div class="section-label">02 — Work</div>
-        <h2>Selected <em>Projects</em></h2>
+        <h2><em>Recipes</em></h2>
+        <div class="about-text">
+        <p>Lorem ipsum dolor sit amet, consectetur adipisicing, elit. Maiores, in possimus rerum quia illo voluptatem. Dicta, expedita autem nesciunt beatae, officia deleniti soluta tempora officiis! Quasi ipsum eos ab esse.</p>
+      </div>
         <div class="work-grid">
 
           <article class="work-card">
@@ -137,8 +137,9 @@
               </div>
             </div>
           </article>
-
         </div>
+         <a href="/recipes/index.html" class="btn-primary martop30">View all recipes</a>
+
       </div>
     </section>
 
@@ -146,18 +147,17 @@
     <div class="section-divider"></div>
 
     <!-- CONTACT -->
-    <section class="section section-contact" id="contact">
-      <div class="section-inner contact-inner">
-        <div class="section-label">03 — Contact</div>
-        <h2>Let's work <em>together</em></h2>
+    <section class="section section-contact" id="links">
+      <div class="section-inner">
+        <h2>Talk to <em>me!</em></h2>
         <p class="contact-sub">I'm always open to new opportunities, collaborations, and interesting conversations.</p>
-        <a href="mailto:hello@yourname.com" class="contact-email">hello@yourname.com</a>
+        <a href="mailto:ebmghm@gmail.com" class="contact-email">ebmghm@gmail.com</a>
         <div class="social-row">
-          <a href="#" class="social-link">LinkedIn</a>
+          <a href="https://cal.com/devonshire-dev-shop/onboarding-call" class="social-link">Cal.com Calender</a>
           <span class="social-dot">·</span>
-          <a href="#" class="social-link">GitHub</a>
+          <a href="https://www.figma.com/community/file/1622798564397007664" class="social-link">Figma Design</a>
           <span class="social-dot">·</span>
-          <a href="#" class="social-link">Twitter</a>
+          <a href="https://devonshiredevshop.com/" class="social-link">Devonshire Dev Shop</a>
         </div>
       </div>
     </section>
@@ -166,8 +166,8 @@
 
   <!-- FOOTER -->
   <footer class="footer">
-    <span>© 2026 Your Name</span>
-    <span>Built with care</span>
+        <a href="/" class="nav-logo"><img src="images/FullLogo1SVG.svg" alt="Eyal Benmoshe logo"></a>
+        <span>© <span id="date"></span> Eyal Benmoshe</span>
   </footer>
 
   <script src="script.js"></script>
