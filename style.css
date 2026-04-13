@@ -486,7 +486,6 @@ img{max-width: 100%;}
   font-size: 0.6rem;
   letter-spacing: 0.1em;
   text-transform: uppercase;
-  color: var(--text-muted);
   padding: 0.3rem 0.6rem;
   border: 1px solid var(--border);
   border-radius: 2px;
