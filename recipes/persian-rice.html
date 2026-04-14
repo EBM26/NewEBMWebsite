@@ -1,0 +1,193 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Easy Persian Rice — Eyal Benmoshe</title>
+  <link rel="icon" type="image/svg+xml" href="../favicon.svg" />
+  <link rel="stylesheet" href="../style.css" />
+  <link rel="stylesheet" href="recipes.css" />
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link href="https://fonts.googleapis.com/css2?family=Cormorant+Garamond:ital,wght@0,300;0,400;0,600;1,300;1,400&family=DM+Mono:wght@300;400&display=swap" rel="stylesheet" />
+</head>
+<body>
+
+  <!-- NAV -->
+  <header class="nav-header">
+    <a href="../index.html" class="nav-logo">
+      <img src="../images/FullLogo1SVG.svg" alt="Eyal Benmoshe" height="36" onerror="this.outerHTML='Eyal Benmoshe'" />
+    </a>
+    <nav class="nav-links" id="navLinks">
+      <a href="../index.html#about">About</a>
+      <a href="index.html" class="nav-active">Recipes</a>
+      <a href="../index.html#contact">Contact</a>
+    </nav>
+    <button class="hamburger" id="hamburger" aria-label="Toggle menu" aria-expanded="false">
+      <span></span><span></span><span></span>
+    </button>
+  </header>
+
+  <!-- MOBILE MENU -->
+  <div class="mobile-menu" id="mobileMenu">
+    <nav>
+      <a href="../index.html#about" class="mobile-link" onclick="closeMenu()">About</a>
+      <a href="index.html" class="mobile-link" onclick="closeMenu()">Recipes</a>
+      <a href="../index.html#contact" class="mobile-link" onclick="closeMenu()">Contact</a>
+    </nav>
+  </div>
+
+  <main>
+
+    <!-- RECIPE HERO -->
+    <section class="recipe-hero">
+      <div class="recipe-hero-inner">
+
+        <!-- Breadcrumb -->
+        <nav class="breadcrumb" aria-label="Breadcrumb">
+          <a href="../index.html">Home</a>
+          <span>›</span>
+          <a href="index.html">Recipes</a>
+          <span>›</span>
+          <span>Easy Persian Rice</span>
+        </nav>
+
+        <div class="recipe-hero-grid">
+          <div class="recipe-hero-text">
+            <div class="recipe-tags-row">
+              <span class="recipe-pill">Persian</span>
+              <span class="recipe-pill">Sides</span>
+            </div>
+            <h1>Easy Persian <em>Rice</em></h1>
+            <p class="recipe-intro">Persians are known for their famous long-grained rice where every kernel is separate and never sticky. This method — a gentle par-boil followed by a low steam — is the secret behind the iconic golden crust known as <em>tahdig</em>.</p>
+
+            <!-- Meta row -->
+            <div class="recipe-stats">
+              <div class="stat">
+                <span class="stat-label">Prep</span>
+                <span class="stat-value">10 min</span>
+              </div>
+              <div class="stat-divider"></div>
+              <div class="stat">
+                <span class="stat-label">Cook</span>
+                <span class="stat-value">45 min</span>
+              </div>
+              <div class="stat-divider"></div>
+              <div class="stat">
+                <span class="stat-label">Servings</span>
+                <span class="stat-value">4</span>
+              </div>
+              <div class="stat-divider"></div>
+              <div class="stat">
+                <span class="stat-label">Difficulty</span>
+                <span class="stat-value">Easy</span>
+              </div>
+            </div>
+          </div>
+
+          <div class="recipe-hero-img">
+            <img src="../images/comingSoon.jpg" alt="Easy Persian Rice" onerror="this.parentElement.classList.add('img-missing-hero')" />
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- RECIPE BODY -->
+    <section class="recipe-body">
+      <div class="recipe-body-inner">
+
+        <!-- INGREDIENTS -->
+        <aside class="ingredients-col">
+          <h2>Ingredients</h2>
+          <ul class="ingredients-list">
+            <li><span class="qty">2 cups</span> basmati rice</li>
+            <li><span class="qty">4 tbsp</span> neutral oil or butter</li>
+            <li><span class="qty">1 tbsp</span> fine salt (for water)</li>
+            <li><span class="qty">½ tsp</span> salt (for rice)</li>
+            <li><span class="qty">1</span> large potato, thinly sliced <span class="note">(for tahdig)</span></li>
+            <li><span class="qty">¼ tsp</span> ground saffron, bloomed in 2 tbsp hot water</li>
+          </ul>
+
+          <div class="ingredients-note">
+            <p><strong>Tip:</strong> Blooming saffron in hot water for 10 minutes extracts the most color and fragrance.</p>
+          </div>
+        </aside>
+
+        <!-- INSTRUCTIONS -->
+        <div class="instructions-col">
+          <h2>Instructions</h2>
+          <ol class="steps-list">
+
+            <li class="step">
+              <span class="step-num">01</span>
+              <div class="step-body">
+                <h3>Rinse the rice</h3>
+                <p>Place basmati rice in a bowl and cover with cold water. Swirl gently and drain. Repeat 3–4 times until the water runs nearly clear. This removes excess starch and is essential for fluffy, separate grains.</p>
+              </div>
+            </li>
+
+            <li class="step">
+              <span class="step-num">02</span>
+              <div class="step-body">
+                <h3>Par-boil</h3>
+                <p>Bring a large pot of water to a rolling boil — use more water than you think you need. Add 1 tbsp salt. Add the rinsed rice and boil uncovered for 6–7 minutes, stirring occasionally. The grains should be just barely tender on the outside but still firm in the center. Drain and rinse with cool water.</p>
+              </div>
+            </li>
+
+            <li class="step">
+              <span class="step-num">03</span>
+              <div class="step-body">
+                <h3>Build the tahdig</h3>
+                <p>Heat 3 tbsp of oil in a non-stick pot over medium heat. Lay potato slices in a single layer across the bottom, overlapping slightly. Season with a pinch of salt. The potatoes will form the golden crust — the most coveted part of Persian rice.</p>
+              </div>
+            </li>
+
+            <li class="step">
+              <span class="step-num">04</span>
+              <div class="step-body">
+                <h3>Steam the rice</h3>
+                <p>Gently mound the par-boiled rice over the potato layer, shaping it into a loose pyramid. Drizzle remaining oil and the bloomed saffron water over the top. Wrap the pot lid in a clean kitchen towel (to absorb steam) and place firmly on the pot. Cook on medium-low heat for 35–40 minutes.</p>
+              </div>
+            </li>
+
+            <li class="step">
+              <span class="step-num">05</span>
+              <div class="step-body">
+                <h3>Rest and unmold</h3>
+                <p>Remove the pot from heat and let rest for 5 minutes. To serve, spoon the fluffy rice onto a platter first, then carefully loosen and flip the golden potato tahdig crust on top. Serve immediately.</p>
+              </div>
+            </li>
+
+          </ol>
+
+          <!-- Chef's note -->
+          <div class="chefs-note">
+            <span class="chefs-note-label">Chef's note</span>
+            <p>The towel-wrapped lid is the single most important technique — it traps moisture and creates the perfect steam environment. Don't skip it.</p>
+          </div>
+        </div>
+
+      </div>
+    </section>
+
+    <!-- MORE RECIPES -->
+    <section class="more-recipes">
+      <div class="more-recipes-inner">
+        <div class="section-label">More Recipes</div>
+        <div class="more-recipes-row">
+          <a href="index.html" class="more-recipes-all">← View all recipes</a>
+        </div>
+      </div>
+    </section>
+
+  </main>
+
+  <!-- FOOTER -->
+  <footer class="footer">
+    <span>© 2026 Eyal Benmoshe</span>
+    <a href="../index.html" style="color:var(--text-muted); text-decoration:none;">← Back to home</a>
+  </footer>
+
+  <script src="../script.js"></script>
+</body>
+</html>

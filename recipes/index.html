@@ -1,0 +1,195 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Recipes — Eyal Benmoshe</title>
+  <link rel="icon" type="image/svg+xml" href="../favicon.svg" />
+  <link rel="stylesheet" href="../style.css" />
+  <link rel="stylesheet" href="recipes.css" />
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link href="https://fonts.googleapis.com/css2?family=Cormorant+Garamond:ital,wght@0,300;0,400;0,600;1,300;1,400&family=DM+Mono:wght@300;400&display=swap" rel="stylesheet" />
+</head>
+<body>
+
+  <!-- NAV -->
+  <header class="nav-header">
+    <a href="../index.html" class="nav-logo">
+      <img src="../images/FullLogo1SVG.svg" alt="Eyal Benmoshe" height="36" onerror="this.outerHTML='Eyal Benmoshe'" />
+    </a>
+    <nav class="nav-links" id="navLinks">
+      <a href="../index.html#about">About</a>
+      <a href="index.html" class="nav-active">Recipes</a>
+      <a href="../index.html#contact">Contact</a>
+    </nav>
+    <button class="hamburger" id="hamburger" aria-label="Toggle menu" aria-expanded="false">
+      <span></span><span></span><span></span>
+    </button>
+  </header>
+
+  <!-- MOBILE MENU -->
+  <div class="mobile-menu" id="mobileMenu">
+    <nav>
+      <a href="../index.html#about" class="mobile-link" onclick="closeMenu()">About</a>
+      <a href="index.html" class="mobile-link" onclick="closeMenu()">Recipes</a>
+      <a href="../index.html#contact" class="mobile-link" onclick="closeMenu()">Contact</a>
+    </nav>
+  </div>
+
+  <main>
+
+    <!-- PAGE HEADER -->
+    <section class="page-hero">
+      <div class="page-hero-inner">
+        <p class="hero-eyebrow">Eyal's Kitchen</p>
+        <h1>All <em>Recipes</em></h1>
+        <p class="page-hero-desc">A tapestry of Persian flavors, Israeli street food, and Mexican technique — family secrets and modern fusions.</p>
+      </div>
+    </section>
+
+    <!-- FILTER TAGS -->
+    <div class="filter-bar">
+      <div class="filter-inner">
+        <button class="filter-tag active" data-filter="all">All</button>
+        <button class="filter-tag" data-filter="persian">Persian</button>
+        <button class="filter-tag" data-filter="israeli">Israeli</button>
+        <button class="filter-tag" data-filter="mexican">Mexican</button>
+        <button class="filter-tag" data-filter="fusion">Fusion</button>
+        <button class="filter-tag" data-filter="sides">Sides</button>
+        <button class="filter-tag" data-filter="mains">Mains</button>
+        <button class="filter-tag" data-filter="desserts">Desserts</button>
+      </div>
+    </div>
+
+    <!-- RECIPE GRID -->
+    <section class="recipes-section">
+      <div class="recipes-inner">
+        <div class="recipes-grid" id="recipesGrid">
+
+          <!-- RECIPE CARD 1 -->
+          <a class="recipe-card" href="persian-rice.html" data-tags="persian sides">
+            <div class="recipe-card-img">
+              <img src="../images/comingSoon.jpg" alt="Easy Persian Rice" onerror="this.parentElement.classList.add('img-missing')" />
+              <div class="recipe-card-tags">
+                <span>Persian</span>
+                <span>Sides</span>
+              </div>
+            </div>
+            <div class="recipe-card-body">
+              <h2>Easy Persian Rice</h2>
+              <p>Every kernel separate and perfectly fluffy — the hallmark of traditional Persian cooking.</p>
+              <div class="recipe-meta">
+                <span class="meta-item">⏱ 45 min</span>
+                <span class="meta-item">👤 4 servings</span>
+              </div>
+            </div>
+          </a>
+
+          <!-- RECIPE CARD 2 (placeholder) -->
+          <a class="recipe-card" href="recipe.html" data-tags="mains persian">
+            <div class="recipe-card-img img-missing">
+              <div class="recipe-card-tags">
+                <span>Persian</span>
+                <span>Mains</span>
+              </div>
+            </div>
+            <div class="recipe-card-body">
+              <h2>Coming Soon</h2>
+              <p>A new recipe is on its way. Check back shortly.</p>
+              <div class="recipe-meta">
+                <span class="meta-item coming">Coming soon</span>
+              </div>
+            </div>
+          </a>
+
+          <!-- RECIPE CARD 3 (placeholder) -->
+          <a class="recipe-card" href="recipe.html" data-tags="mexican fusion mains">
+            <div class="recipe-card-img img-missing">
+              <div class="recipe-card-tags">
+                <span>Mexican</span>
+                <span>Fusion</span>
+              </div>
+            </div>
+            <div class="recipe-card-body">
+              <h2>Coming Soon</h2>
+              <p>A new recipe is on its way. Check back shortly.</p>
+              <div class="recipe-meta">
+                <span class="meta-item coming">Coming soon</span>
+              </div>
+            </div>
+          </a>
+
+          <!-- RECIPE CARD 4 (placeholder) -->
+          <a class="recipe-card" href="recipe.html" data-tags="israeli sides">
+            <div class="recipe-card-img img-missing">
+              <div class="recipe-card-tags">
+                <span>Israeli</span>
+                <span>Sides</span>
+              </div>
+            </div>
+            <div class="recipe-card-body">
+              <h2>Coming Soon</h2>
+              <p>A new recipe is on its way. Check back shortly.</p>
+              <div class="recipe-meta">
+                <span class="meta-item coming">Coming soon</span>
+              </div>
+            </div>
+          </a>
+
+          <!-- RECIPE CARD 5 (placeholder) -->
+          <a class="recipe-card" href="recipe.html" data-tags="desserts persian">
+            <div class="recipe-card-img img-missing">
+              <div class="recipe-card-tags">
+                <span>Persian</span>
+                <span>Desserts</span>
+              </div>
+            </div>
+            <div class="recipe-card-body">
+              <h2>Coming Soon</h2>
+              <p>A new recipe is on its way. Check back shortly.</p>
+              <div class="recipe-meta">
+                <span class="meta-item coming">Coming soon</span>
+              </div>
+            </div>
+          </a>
+
+          <!-- RECIPE CARD 6 (placeholder) -->
+          <a class="recipe-card" href="recipe.html" data-tags="fusion israeli mains">
+            <div class="recipe-card-img img-missing">
+              <div class="recipe-card-tags">
+                <span>Israeli</span>
+                <span>Fusion</span>
+              </div>
+            </div>
+            <div class="recipe-card-body">
+              <h2>Coming Soon</h2>
+              <p>A new recipe is on its way. Check back shortly.</p>
+              <div class="recipe-meta">
+                <span class="meta-item coming">Coming soon</span>
+              </div>
+            </div>
+          </a>
+
+        </div>
+
+        <!-- EMPTY STATE -->
+        <div class="empty-state" id="emptyState" style="display:none;">
+          <p>No recipes in this category yet — check back soon.</p>
+        </div>
+
+      </div>
+    </section>
+
+  </main>
+
+  <!-- FOOTER -->
+  <footer class="footer">
+    <span>© 2026 Eyal Benmoshe</span>
+    <a href="../index.html" style="color:var(--text-muted); text-decoration:none;">← Back to home</a>
+  </footer>
+
+  <script src="../script.js"></script>
+  <script src="recipes.js"></script>
+</body>
+</html>
