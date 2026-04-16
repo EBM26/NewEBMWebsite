@@ -27,3 +27,7 @@ filterTags.forEach(btn => {
     }
   });
 });
+
+
+ // copyright date function
+  document.getElementById("date").innerHTML = new Date().getFullYear();

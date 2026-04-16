@@ -1,1 +1,148 @@
-index.html
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Home | Eyal Benmoshe | astrology | recipes | links</title>
+  <meta name="description" content="Eyal Benmoshe is an SEO specialist with a passion for astrology, cooking, and self-growth.">
+  <link href="https://fonts.googleapis.com/css?family=Roboto" rel="stylesheet">
+	<link rel="stylesheet" href="css/style.css">
+  <link rel="stylesheet" href="../style.css" />
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link href="https://fonts.googleapis.com/css2?family=Cormorant+Garamond:ital,wght@0,300;0,400;0,600;1,300;1,400&family=DM+Mono:wght@300;400&display=swap" rel="stylesheet" />
+   <link rel="icon" type="image/x-icon" href="../images/favicon.png">
+</head>
+<body>
+
+  <!-- NAV -->
+  <header class="nav-header">
+    <a href="/" class="nav-logo"><img src="../images/FullLogo1SVG.svg" alt="Eyal Benmoshe logo"></a>
+    <nav class="nav-links" id="navLinks">
+      <a href="astrology/index.html">Astrology</a>
+      <a href="recipes/index.html">Recipes</a>
+      <a href="#links">Links</a>
+    </nav>
+    <button class="hamburger" id="hamburger" aria-label="Toggle menu" aria-expanded="false">
+      <span></span>
+      <span></span>
+      <span></span>
+    </button>
+  </header>
+
+  <!-- MOBILE MENU OVERLAY -->
+  <div class="mobile-menu" id="mobileMenu">
+    <nav>
+      <a href="astrology/index.html" class="mobile-link" onclick="closeMenu()">Astrology</a>
+      <a href="recipes/index.html" class="mobile-link" onclick="closeMenu()">Recipes</a>
+      <a href="#links" class="mobile-link" onclick="closeMenu()">Links</a>
+    </nav>
+  </div>
+  <main>
+	<div class="container">
+		<div class="center pad20 heroAstrology">
+			<h1 class="inline-block">Find My Sign!</h1>
+		</div>
+		<div class="row">
+		<div class="signs-container">
+			<a href="aries.html">
+			<div class="sign-div hvr-grow">
+				<img src="images/aries.svg" alt="">
+				<p class="sign-name">Aries</p>
+				<p>Mar 20 - Apr 20</p>
+			</div>
+			</a>
+			<a href="taurus.html">
+			<div class="sign-div hvr-grow">
+				<img src="images/taurus.svg" alt="">
+				<p class="sign-name">Taurus</p>
+				<p>Apr 21 - May 21</p>
+			</div>
+			</a>
+			<a href="gemini.html">
+			<div class="sign-div hvr-grow">
+				<img src="images/gemini.svg" alt="">
+				<p class="sign-name">Gemini</p>
+				<p>May 22 - Jun 21</p>
+			</div>
+			</a>
+			<a href="cancer.html">
+			<div class="sign-div hvr-grow">
+				<img src="images/cancer.svg" alt="">
+				<p class="sign-name">Cancer</p>
+				<p>Jun 22 – Jul 21</p>
+			</div>
+			</a>
+		</div>
+		<div class="signs-container">
+			<a href="leo.html">
+			<div class="sign-div hvr-grow">
+				<img src="images/leo.svg" alt="">
+				<p class="sign-name">Leo</p>
+				<p>Jul 22 - Aug 23</p>
+			</div>
+			</a>
+			<a href="virgo.html">
+			<div class="sign-div hvr-grow">
+				<img src="images/virgo.svg" alt="">
+				<p class="sign-name">Virgo</p>
+				<p>Aug 23 - Sep 23</p>
+			</div>
+			</a>
+			<a href="libra.html">
+			<div class="sign-div hvr-grow">
+				<img src="images/libra.svg" alt="">
+				<p class="sign-name">Libra</p>
+				<p>Sep 23 - Oct 23</p>
+			</div>
+			</a>
+			<a href="scorpio.html">
+			<div class="sign-div hvr-grow">
+				<img src="images/scorpio.svg" alt="">
+				<p class="sign-name">Scorpio</p>
+				<p>Oct 23 - Nov 22</p>
+			</div>
+			</a>
+		</div>
+		<div class="signs-container">
+			<a href="sagittarius.html">
+			<div class="sign-div hvr-grow">
+				<img src="images/sagittarius.svg" alt="">
+				<p class="sign-name">Sagittarius</p>
+				<p>Nov 22 - Dec 21</p>
+			</div>
+			</a>
+			<a href="capricorn.html">
+			<div class="sign-div hvr-grow">
+				<img src="images/capricorn.svg" alt="">
+				<p class="sign-name">Capricorn</p>
+				<p>Dec 21 - Jan 20</p>
+			</div>
+			</a>
+			<a href="aquarius.html">
+			<div class="sign-div hvr-grow">
+				<img src="images/aquarius.svg" alt="">
+				<p class="sign-name">Aquarius</p>
+				<p>Jan 20 - Feb 18</p>
+			</div>
+			</a>
+			<a href="pisces.html">
+			<div class="sign-div hvr-grow">
+				<img src="images/pisces.svg" alt="">
+				<p class="sign-name">Pisces</p>
+				<p>Feb 18 - Mar 20</p>
+			</div>
+			</a>
+		</div>
+		</div> <!--  row  -->
+	</div> <!--  container  -->
+</main> 
+	  <!-- FOOTER -->
+  <footer class="footer">
+        <a href="/" class="nav-logo"><img src="../images/FullLogo1SVG.svg" alt="Eyal Benmoshe logo"></a>
+        <span>© <span id="date"></span> Eyal Benmoshe</span>
+  </footer>
+	<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+	<script src="js/main.js"></script>
+</body>
+</html>

@@ -24,3 +24,7 @@ $(document).ready(function() {
 
 
 }) // ready function
+
+
+ // copyright date function
+  document.getElementById("date").innerHTML = new Date().getFullYear();

@@ -51,6 +51,7 @@ h2{font-size: 23px; text-align: left; display: inline-block;}
 .quote{color: #47a3f2 !important; text-align: center !important; font-size: 1.5em; line-height: 1.2 !important; font-style: italic;}
 .quote-left{width: 30px; margin-right: 15px;}
 .quote-right{width: 30px; margin-left: 15px;}
+.heroAstrology{padding: 10% 0;}
 
 /*	social share css */
 .social-share{text-align: center; max-width: 240px; margin: 30px auto 0; padding: 10px; padding-bottom: 5px; border: 1px solid}

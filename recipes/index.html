@@ -3,37 +3,38 @@
 <head>
   <meta charset="UTF-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-  <title>Recipes — Eyal Benmoshe</title>
-  <link rel="icon" type="image/svg+xml" href="../favicon.svg" />
+  <title>Recipes by Eyal Benmoshe | eyalbenmoshe.com</title>
+  <meta name="description" content="Recipes by Eyal Benmoshe. Enjoy a variety of main dishes, salads, dips, and side dishes.">
   <link rel="stylesheet" href="../style.css" />
   <link rel="stylesheet" href="recipes.css" />
   <link rel="preconnect" href="https://fonts.googleapis.com" />
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
   <link href="https://fonts.googleapis.com/css2?family=Cormorant+Garamond:ital,wght@0,300;0,400;0,600;1,300;1,400&family=DM+Mono:wght@300;400&display=swap" rel="stylesheet" />
+  <link rel="icon" type="image/x-icon" href="../images/favicon.png">
 </head>
 <body>
 
   <!-- NAV -->
   <header class="nav-header">
-    <a href="../index.html" class="nav-logo">
-      <img src="../images/FullLogo1SVG.svg" alt="Eyal Benmoshe" height="36" onerror="this.outerHTML='Eyal Benmoshe'" />
-    </a>
+    <a href="/" class="nav-logo"><img src="../images/FullLogo1SVG.svg" alt="Eyal Benmoshe logo"></a>
     <nav class="nav-links" id="navLinks">
-      <a href="../index.html#about">About</a>
-      <a href="index.html" class="nav-active">Recipes</a>
-      <a href="../index.html#contact">Contact</a>
+      <a href="../astrology/index.html">Astrology</a>
+      <a href="index.html">Recipes</a>
+      <a href="eyalbenmoshe.com#links">Links</a>
     </nav>
     <button class="hamburger" id="hamburger" aria-label="Toggle menu" aria-expanded="false">
-      <span></span><span></span><span></span>
+      <span></span>
+      <span></span>
+      <span></span>
     </button>
   </header>
 
-  <!-- MOBILE MENU -->
+  <!-- MOBILE MENU OVERLAY -->
   <div class="mobile-menu" id="mobileMenu">
     <nav>
-      <a href="../index.html#about" class="mobile-link" onclick="closeMenu()">About</a>
+      <a href="../astrology/index.html" class="mobile-link" onclick="closeMenu()">Astrology</a>
       <a href="index.html" class="mobile-link" onclick="closeMenu()">Recipes</a>
-      <a href="../index.html#contact" class="mobile-link" onclick="closeMenu()">Contact</a>
+      <a href="#links" class="mobile-link" onclick="closeMenu()">Links</a>
     </nav>
   </div>
 
@@ -185,8 +186,8 @@
 
   <!-- FOOTER -->
   <footer class="footer">
-    <span>© 2026 Eyal Benmoshe</span>
-    <a href="../index.html" style="color:var(--text-muted); text-decoration:none;">← Back to home</a>
+        <a href="/" class="nav-logo"><img src="../images/FullLogo1SVG.svg" alt="Eyal Benmoshe logo"></a>
+        <span>© <span id="date"></span> Eyal Benmoshe</span>
   </footer>
 
   <script src="../script.js"></script>

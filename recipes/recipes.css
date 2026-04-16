@@ -49,7 +49,7 @@
 }
 
 .page-hero-desc {
-  font-family: var(--font-serif);
+  font-family: var(--font-mono);
   font-size: 1.1rem;
   font-weight: 300;
   color: var(--text-soft);
@@ -196,7 +196,7 @@
   padding: 1.4rem 1.6rem 1.6rem;
 }
 .recipe-card-body h2 {
-  font-family: var(--font-serif);
+  font-family: var(--font-mono);
   font-weight: 400;
   font-size: 1.3rem;
   color: var(--text);
@@ -204,7 +204,7 @@
   line-height: 1.25;
 }
 .recipe-card-body p {
-  font-family: var(--font-serif);
+  font-family: var(--font-mono);
   font-size: 0.95rem;
   font-weight: 300;
   color: var(--text-soft);
@@ -238,7 +238,7 @@
   padding: 5rem 0;
 }
 .empty-state p {
-  font-family: var(--font-serif);
+  font-family: var(--font-mono);
   font-style: italic;
   font-size: 1.2rem;
   color: var(--text-muted);
@@ -305,7 +305,7 @@
 }
 
 .recipe-hero h1 {
-  font-family: var(--font-serif);
+  font-family: var(--font-mono);
   font-weight: 300;
   font-size: clamp(2.6rem, 5.5vw, 4.5rem);
   line-height: 1.05;
@@ -318,7 +318,7 @@
 }
 
 .recipe-intro {
-  font-family: var(--font-serif);
+  font-family: var(--font-mono);
   font-size: 1.1rem;
   font-weight: 300;
   color: var(--text-soft);
@@ -353,7 +353,7 @@
   color: var(--text-muted);
 }
 .stat-value {
-  font-family: var(--font-serif);
+  font-family: var(--font-mono);
   font-size: 1.1rem;
   font-weight: 400;
   color: var(--text);
@@ -415,7 +415,7 @@
 
 .ingredients-col h2,
 .instructions-col h2 {
-  font-family: var(--font-serif);
+  font-family: var(--font-mono);
   font-weight: 400;
   font-size: 1.6rem;
   color: var(--text);
@@ -431,7 +431,7 @@
   gap: 0;
 }
 .ingredients-list li {
-  font-family: var(--font-serif);
+  font-family: var(--font-mono);
   font-size: 1rem;
   font-weight: 300;
   color: var(--text-soft);
@@ -464,7 +464,7 @@
   border-radius: 0 var(--radius) var(--radius) 0;
 }
 .ingredients-note p {
-  font-family: var(--font-serif);
+  font-family: var(--font-mono);
   font-size: 0.92rem;
   font-weight: 300;
   color: var(--text-soft);
@@ -499,14 +499,14 @@
 }
 
 .step-body h3 {
-  font-family: var(--font-serif);
+  font-family: var(--font-mono);
   font-weight: 400;
   font-size: 1.2rem;
   color: var(--text);
   margin-bottom: 0.6rem;
 }
 .step-body p {
-  font-family: var(--font-serif);
+  font-family: var(--font-mono);
   font-size: 1rem;
   font-weight: 300;
   color: var(--text-soft);
@@ -532,7 +532,7 @@
   margin-bottom: 0.6rem;
 }
 .chefs-note p {
-  font-family: var(--font-serif);
+  font-family: var(--font-mono);
   font-style: italic;
   font-size: 1.05rem;
   font-weight: 300;
