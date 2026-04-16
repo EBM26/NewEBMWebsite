@@ -254,7 +254,8 @@ img{max-width: 100%;}
 .btn-primary {
   display: inline-block;
   font-family: var(--font-mono);
-  font-size: 0.72rem;
+  font-size: 14px;
+  font-weight: bold;
   letter-spacing: 0.14em;
   text-transform: uppercase;
   color: var(--bg);
@@ -362,7 +363,7 @@ img{max-width: 100%;}
   margin-top: 2rem;
 }
 
-.skill-tag {
+a:has(.skill-tag) {
   font-family: var(--font-mono);
   font-size: 13px;
   letter-spacing: 0.12em;
@@ -379,11 +380,11 @@ img{max-width: 100%;}
   cursor: pointer;
 }
 
-.skill-tag:hover {
+a:has(.skill-tag):hover {
   transform: translateY(-3px);
 }
 
-.skill-tag a{text-decoration: none; color: inherit;}
+a:has(.skill-tag){text-decoration: none; color: #FFF;}
 
 .about-photo {
   position: sticky;
@@ -613,3 +614,5 @@ img{max-width: 100%;}
 
  .nav-logo img {max-width: 10%;}
  .martop30{margin-top: 30px;}
+ .recipe-card{color: inherit; text-decoration: none;}
+ .yellowButt{background: #EDC001;}
