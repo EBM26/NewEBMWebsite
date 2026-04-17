@@ -37,7 +37,7 @@ a:link, a:visited, a:active{text-decoration: none; color: inherit;}
 
 header{box-shadow: 0 0 15px #e4e5e2; position: relative; z-index: 100;}
 header .container{padding: 15px 0;}
-header img{width: 70px; vertical-align: middle; margin-right: 20px;}
+header img{width: 85px; vertical-align: middle;}
 .logo-text{display: inline-block; font-size: 30px; font-weight: bold;}
 
 /*  shared css on pages  */

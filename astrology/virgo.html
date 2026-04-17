@@ -1,27 +1,46 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-	<meta http-equiv="X-UA-Compatible" content="IE=edge">
-	<meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1, user-scalable=0"/>
-	<meta name="format-detection" content="telephone=no">
-	<link rel="icon" type="image/x-icon" href="images/astromigo-logo.png" />
-	<link href="https://fonts.googleapis.com/css?family=Roboto" rel="stylesheet">
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Virgo astrology sign summary | eyalbenmoshe.com</title>
+  <meta name="description" content="This is the index file for all the astrology sign summaries by Eyal Benmoshe">
+  <link href="https://fonts.googleapis.com/css?family=Roboto" rel="stylesheet">
 	<link rel="stylesheet" href="css/style.css">
-	<title>Virgo Summary</title>
-	<!--[if lt IE 9]>
-		<script src="http://html5shiv.googlecode.com/svn/trunk/html5.js"></script>
-	<![endif]-->
+  <link rel="stylesheet" href="../style.css" />
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link href="https://fonts.googleapis.com/css2?family=Cormorant+Garamond:ital,wght@0,300;0,400;0,600;1,300;1,400&family=DM+Mono:wght@300;400&display=swap" rel="stylesheet" />
+   <link rel="icon" type="image/x-icon" href="../images/favicon.png">
 </head>
 <body>
-	<header>
-		<div class="container">
-			<div class="row">
-			<a href="signs-index.html"><img src="images/astromigo-logo.png" alt=""><p class="logo-text"><span class="blue">EBM<span class="gold">Astrology</span></p></a>
-			</div>
-		</div>
-	</header>
+
+  <!-- NAV -->
+  <header class="nav-header">
+    <a href="/"><img src="../images/FullLogo1SVG.svg" alt="Eyal Benmoshe logo"></a>
+    <nav class="nav-links" id="navLinks">
+      <a href="index.html">Astrology</a>
+      <a href="../recipes/index.html">Recipes</a>
+      <a href="eyalbenmoshe.com#links">Links</a>
+    </nav>
+    <button class="hamburger" id="hamburger" aria-label="Toggle menu" aria-expanded="false">
+      <span></span>
+      <span></span>
+      <span></span>
+    </button>
+  </header>
+
+  <!-- MOBILE MENU OVERLAY -->
+  <div class="mobile-menu" id="mobileMenu">
+    <nav>
+      <a href="index.html" class="mobile-link" onclick="closeMenu()">Astrology</a>
+      <a href="../recipes/index.html" class="mobile-link" onclick="closeMenu()">Recipes</a>
+      <a href="eyalbenmoshe.com#links" class="mobile-link" onclick="closeMenu()">Links</a>
+    </nav>
+  </div>
+  <main>
 	<div class="container">
-		<div class="center pad20">
+		<div class="center pad20 heroAstrology">
 			<img src="images/virgo.svg" alt="" class="title-image"> <h1 class="inline-block">Virgo <span class="font17 mobile-display-block">(Aug 23 - Sep 23)</span></h1>
 		</div>
 		<div class="row">
@@ -226,12 +245,14 @@
 		<a href="#0" class="cd-top">Top</a>
 		</div> <!--  row  -->
 	</div> <!--  container  -->
-	<footer>
-		<div class="container center">
-			<p>Copyright &copy; <span id="date"></span> <a href="http://www.eyalbenmoshe.com/">EBM Productions</a>.</p>
-		</div>
-	</footer>
+		</main> 
+	  <!-- FOOTER -->
+  <footer class="footer">
+        <a href="/" class="nav-logo"><img src="../images/FullLogo1SVG.svg" alt="Eyal Benmoshe logo"></a>
+        <span>© <span id="date"></span> Eyal Benmoshe</span>
+  </footer>
 	<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
 	<script src="js/main.js"></script>
+	<script src="../script.js"></script>
 </body>
 </html>
