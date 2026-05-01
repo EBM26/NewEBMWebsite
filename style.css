@@ -656,4 +656,8 @@ a:has(.skill-tag){text-decoration: none; color: #FFF;}
 
  @media (max-width: 768px) {
   .nav-logo img { max-width: 20%; vertical-align: middle;}
+  a:has(.skill-tag){font-size: 14px; letter-spacing: normal; padding: 0.5rem .5rem; width: 100%;}
+  .skills-row{    display: grid;
+    grid-template-columns: repeat(3, 1fr);}
+    .btn-primary{display: block;}
  }
