@@ -206,6 +206,11 @@ img{max-width: 100%;}
   background: var(--border);
 }
 
+.hero-inner{
+  display: block;
+  min-height: auto;
+  padding: 10%;
+}
 .hero-content {
   animation: fadeUp 0.9s ease both;
 }
@@ -252,6 +257,10 @@ img{max-width: 100%;}
   margin-bottom: 2.5rem;
   line-height: 1.75;
   text-align: left;
+}
+
+.hero-inner .hero-desc{
+  max-width: none;
 }
 
 .btn-primary {

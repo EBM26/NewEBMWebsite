@@ -1,0 +1,99 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Links | eyalbenmoshe.com</title>
+  <meta name="description" content="Eyal Benmoshe is an SEO specialist with a passion for astrology, cooking, and self-growth.">
+  <link rel="stylesheet" href="../style.css" />
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link href="https://fonts.googleapis.com/css2?family=Cormorant+Garamond:ital,wght@0,300;0,400;0,600;1,300;1,400&family=DM+Mono:wght@300;400&display=swap" rel="stylesheet" />
+   <link rel="icon" type="image/x-icon" href="../images/favicon.png">
+</head>
+<body>
+
+  <!-- NAV -->
+  <header class="nav-header">
+    <a href="/" class="nav-logo"><img src="../images/FullLogo1SVG.svg" alt="Eyal Benmoshe logo"></a>
+    <nav class="nav-links" id="navLinks">
+      <a href="../astrology/">Astrology</a>
+      <a href="../recipes/">Recipes</a>
+      <a href="#">Links</a>
+    </nav>
+    <button class="hamburger" id="hamburger" aria-label="Toggle menu" aria-expanded="false">
+      <span></span>
+      <span></span>
+      <span></span>
+    </button>
+  </header>
+
+  <!-- MOBILE MENU OVERLAY -->
+  <div class="mobile-menu" id="mobileMenu">
+    <nav>
+      <a href="../astrology/" class="mobile-link" onclick="closeMenu()">Astrology</a>
+      <a href="../recipes/" class="mobile-link" onclick="closeMenu()">Recipes</a>
+      <a href="#" class="mobile-link" onclick="closeMenu()">Links</a>
+    </nav>
+  </div>
+
+  <main>
+
+    <!-- HERO -->
+    <section class="hero hero-inner">
+      <div class="hero-content">
+        <h1 class="hero-name">Important Links For Different Companies</h1>
+        <p class="hero-desc">Here are important links for different companies</p>
+        <ol>
+        	<li><a href="devonshire">Devonshire Dev Shop</a></li>
+        	<li><a href="customdisposables">Custom Disposables</a></li>
+        </ol>
+      </div>
+    </section>
+
+ <!-- ABOUT -->
+    <section class="section" id="astrology">
+      <div class="section-inner">
+        <div class="about-grid">
+          <div class="about-text">
+            <h2>A little <em>astrology</em></h2>
+            <p>Years ago, I discovered Love Signs by Linda Goodman. It was a turning point for me, offering profound clarity during a difficult breakup by highliting the unique traits of our signs. </p>
+            <p>Since then, I’ve immersed myself in the study of astrology, eventually distilling my research into summaries that my friends and family began to request constantly. Now, I'm making those guides available to you.</p>
+            <div class="skills-row">
+              <a href="astrology/aries"><span class="skill-tag">Aries</span></a>
+              <a href="astrology/taurus"><span class="skill-tag">Taurus</span></a>
+              <a href="astrology/gemini"><span class="skill-tag">Gemini</span></a>
+              <a href="astrology/cancer"><span class="skill-tag">Cancer</span></a>
+              <a href="astrology/leo"><span class="skill-tag">Leo</span></a>
+              <a href="astrology/virgo"><span class="skill-tag">Virgo</span></a>
+              <a href="astrology/libra"><span class="skill-tag">Libra</span></a>
+              <a href="astrology/scorpio"><span class="skill-tag">Scorpio</span></a>
+              <a href="astrology/sagittarius"><span class="skill-tag">Sagittarius</span></a>
+              <a href="astrology/capricorn"><span class="skill-tag">Capricorn</span></a>
+              <a href="astrology/aquarius"><span class="skill-tag">Aquarius</span></a>
+              <a href="astrology/pisces"><span class="skill-tag">Pisces</span></a>
+
+            </div>
+          </div>
+          <div class="astrology-photo">
+            <img src="astrology/images/astromigo-logo.png" alt="">
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- DIVIDER -->
+    <div class="section-divider"></div>
+  
+
+  </main>
+
+  <!-- FOOTER -->
+  <footer class="footer">
+        <a href="/" class="nav-logo"><img src="../images/FullLogo1SVG.svg" alt="Eyal Benmoshe logo"></a>
+        <span>© <span id="date"></span> Eyal Benmoshe</span>
+  </footer>
+
+  <script src="../script.js"></script>
+</body>
+</html>
