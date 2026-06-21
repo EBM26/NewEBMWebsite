@@ -228,7 +228,7 @@ img{max-width: 100%;}
   font-family: var(--font-serif);
   font-weight: 300;
   font-size: clamp(3.5rem, 7vw, 6.5rem);
-  line-height: 1.0;
+  line-height: normal;
   letter-spacing: -0.01em;
   color: var(--text);
   margin-bottom: 1.2rem;
@@ -662,6 +662,8 @@ a:has(.skill-tag){text-decoration: none; color: #FFF;}
   flex: 1;
 }
 
+.hero-content ol{text-align: left;}
+
 
  @media (max-width: 768px) {
   .nav-logo img { max-width: 20%; vertical-align: middle;}
@@ -669,4 +671,6 @@ a:has(.skill-tag){text-decoration: none; color: #FFF;}
   .skills-row{    display: grid;
     grid-template-columns: repeat(3, 1fr);}
     .btn-primary{display: block;}
+    .hero-name {font-size: 35px;}
+    .social-row, .social-row a, .social-row span{display: block;}
  }
