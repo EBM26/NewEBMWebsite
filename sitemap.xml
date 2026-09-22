@@ -1,102 +1,144 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<urlset
-      xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
-      xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
-      xsi:schemaLocation="http://www.sitemaps.org/schemas/sitemap/0.9
-            http://www.sitemaps.org/schemas/sitemap/0.9/sitemap.xsd">
-<!-- created with Free Online Sitemap Generator www.xml-sitemaps.com -->
-
-
+﻿<?xml version="1.0" encoding="UTF-8"?>
+		<!--	created with www.mysitemapgenerator.com	-->
+		<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
 <url>
-  <loc>https://eyalbenmoshe.com/</loc>
-  <lastmod>2026-04-30T22:35:26+00:00</lastmod>
-  <priority>1.00</priority>
+	<loc>https://eyalbenmoshe.com/</loc>
+	<lastmod>2026-09-22T13:15:41+01:00</lastmod>
+	<priority>1.0</priority>
 </url>
 <url>
-  <loc>https://eyalbenmoshe.com/astrology/</loc>
-  <lastmod>2026-04-30T22:35:26+00:00</lastmod>
-  <priority>0.80</priority>
+	<loc>https://eyalbenmoshe.com/astrology/</loc>
+	<lastmod>2026-09-22T13:15:41+01:00</lastmod>
+	<priority>0.8</priority>
 </url>
 <url>
-  <loc>https://eyalbenmoshe.com/recipes/</loc>
-  <lastmod>2026-04-30T22:35:26+00:00</lastmod>
-  <priority>0.80</priority>
+	<loc>https://eyalbenmoshe.com/recipes/</loc>
+	<lastmod>2026-09-22T13:15:41+01:00</lastmod>
+	<priority>0.8</priority>
 </url>
 <url>
-  <loc>https://eyalbenmoshe.com/astrology/aries</loc>
-  <lastmod>2026-04-30T22:35:26+00:00</lastmod>
-  <priority>0.80</priority>
+	<loc>https://eyalbenmoshe.com/links/</loc>
+	<lastmod>2026-09-22T13:15:41+01:00</lastmod>
+	<priority>0.8</priority>
 </url>
 <url>
-  <loc>https://eyalbenmoshe.com/astrology/taurus</loc>
-  <lastmod>2026-04-30T22:35:26+00:00</lastmod>
-  <priority>0.80</priority>
+	<loc>https://eyalbenmoshe.com/astrology/aries</loc>
+	<lastmod>2026-09-22T13:15:41+01:00</lastmod>
+	<priority>0.8</priority>
 </url>
 <url>
-  <loc>https://eyalbenmoshe.com/astrology/gemini</loc>
-  <lastmod>2026-04-30T22:35:26+00:00</lastmod>
-  <priority>0.80</priority>
+	<loc>https://eyalbenmoshe.com/astrology/taurus</loc>
+	<lastmod>2026-09-22T13:15:41+01:00</lastmod>
+	<priority>0.8</priority>
 </url>
 <url>
-  <loc>https://eyalbenmoshe.com/astrology/cancer</loc>
-  <lastmod>2026-04-30T22:35:26+00:00</lastmod>
-  <priority>0.80</priority>
+	<loc>https://eyalbenmoshe.com/astrology/gemini</loc>
+	<lastmod>2026-09-22T13:15:41+01:00</lastmod>
+	<priority>0.8</priority>
 </url>
 <url>
-  <loc>https://eyalbenmoshe.com/astrology/leo</loc>
-  <lastmod>2026-04-30T22:35:26+00:00</lastmod>
-  <priority>0.80</priority>
+	<loc>https://eyalbenmoshe.com/astrology/cancer</loc>
+	<lastmod>2026-09-22T13:15:41+01:00</lastmod>
+	<priority>0.8</priority>
 </url>
 <url>
-  <loc>https://eyalbenmoshe.com/astrology/virgo</loc>
-  <lastmod>2026-04-30T22:35:26+00:00</lastmod>
-  <priority>0.80</priority>
+	<loc>https://eyalbenmoshe.com/astrology/leo</loc>
+	<lastmod>2026-09-22T13:15:41+01:00</lastmod>
+	<priority>0.8</priority>
 </url>
 <url>
-  <loc>https://eyalbenmoshe.com/astrology/libra</loc>
-  <lastmod>2026-04-30T22:35:26+00:00</lastmod>
-  <priority>0.80</priority>
+	<loc>https://eyalbenmoshe.com/astrology/virgo</loc>
+	<lastmod>2026-09-22T13:15:41+01:00</lastmod>
+	<priority>0.8</priority>
 </url>
 <url>
-  <loc>https://eyalbenmoshe.com/astrology/scorpio</loc>
-  <lastmod>2026-04-30T22:35:26+00:00</lastmod>
-  <priority>0.80</priority>
+	<loc>https://eyalbenmoshe.com/astrology/libra</loc>
+	<lastmod>2026-09-22T13:15:41+01:00</lastmod>
+	<priority>0.8</priority>
 </url>
 <url>
-  <loc>https://eyalbenmoshe.com/astrology/sagittarius</loc>
-  <lastmod>2026-04-30T22:35:26+00:00</lastmod>
-  <priority>0.80</priority>
+	<loc>https://eyalbenmoshe.com/astrology/scorpio</loc>
+	<lastmod>2026-09-22T13:15:41+01:00</lastmod>
+	<priority>0.8</priority>
 </url>
 <url>
-  <loc>https://eyalbenmoshe.com/astrology/capricorn</loc>
-  <lastmod>2026-04-30T22:35:26+00:00</lastmod>
-  <priority>0.80</priority>
+	<loc>https://eyalbenmoshe.com/astrology/sagittarius</loc>
+	<lastmod>2026-09-22T13:15:41+01:00</lastmod>
+	<priority>0.8</priority>
 </url>
 <url>
-  <loc>https://eyalbenmoshe.com/astrology/aquarius</loc>
-  <lastmod>2026-04-30T22:35:26+00:00</lastmod>
-  <priority>0.80</priority>
+	<loc>https://eyalbenmoshe.com/astrology/capricorn</loc>
+	<lastmod>2026-09-22T13:15:41+01:00</lastmod>
+	<priority>0.8</priority>
 </url>
 <url>
-  <loc>https://eyalbenmoshe.com/astrology/pisces</loc>
-  <lastmod>2026-04-30T22:35:26+00:00</lastmod>
-  <priority>0.80</priority>
+	<loc>https://eyalbenmoshe.com/astrology/aquarius</loc>
+	<lastmod>2026-09-22T13:15:41+01:00</lastmod>
+	<priority>0.8</priority>
 </url>
 <url>
-  <loc>https://eyalbenmoshe.com/recipes/persian-rice</loc>
-  <lastmod>2026-04-30T22:35:26+00:00</lastmod>
-  <priority>0.80</priority>
+	<loc>https://eyalbenmoshe.com/astrology/pisces</loc>
+	<lastmod>2026-09-22T13:15:41+01:00</lastmod>
+	<priority>0.8</priority>
 </url>
 <url>
-  <loc>https://eyalbenmoshe.com/recipes/moroccan-fish-recipe</loc>
-  <lastmod>2026-04-30T22:35:26+00:00</lastmod>
-  <priority>0.64</priority>
+	<loc>https://eyalbenmoshe.com/recipes/persian-rice</loc>
+	<lastmod>2026-09-22T13:15:41+01:00</lastmod>
+	<priority>0.8</priority>
 </url>
 <url>
-  <loc>https://eyalbenmoshe.com/recipes/honey-mustard-dressing</loc>
-  <lastmod>2026-04-30T22:35:26+00:00</lastmod>
-  <priority>0.64</priority>
+	<loc>https://eyalbenmoshe.com/recipes/moroccan-fish-recipe</loc>
+	<lastmod>2026-09-22T13:15:41+01:00</lastmod>
+	<priority>0.8</priority>
 </url>
-
-
+<url>
+	<loc>https://eyalbenmoshe.com/recipes/honey-mustard-dressing</loc>
+	<lastmod>2026-09-22T13:15:41+01:00</lastmod>
+	<priority>0.8</priority>
+</url>
+<url>
+	<loc>https://eyalbenmoshe.com/recipes/moroccan-olive-meat</loc>
+	<lastmod>2026-09-22T13:15:42+01:00</lastmod>
+	<priority>0.8</priority>
+</url>
+<url>
+	<loc>https://eyalbenmoshe.com/recipes/bukharian-beef-pilaf</loc>
+	<lastmod>2026-09-22T13:15:42+01:00</lastmod>
+	<priority>0.8</priority>
+</url>
+<url>
+	<loc>https://eyalbenmoshe.com/links/devonshire</loc>
+	<lastmod>2026-09-22T13:15:43+01:00</lastmod>
+	<priority>0.8</priority>
+</url>
+<url>
+	<loc>https://eyalbenmoshe.com/links/customdisposables</loc>
+	<lastmod>2026-09-22T13:15:43+01:00</lastmod>
+	<priority>0.8</priority>
+</url>
+<url>
+	<loc>https://eyalbenmoshe.com/links/landmarkconstruction</loc>
+	<lastmod>2026-09-22T13:15:43+01:00</lastmod>
+	<priority>0.8</priority>
+</url>
+<url>
+	<loc>https://eyalbenmoshe.com/links/californiasecurityglass</loc>
+	<lastmod>2026-09-22T13:15:43+01:00</lastmod>
+	<priority>0.8</priority>
+</url>
+<url>
+	<loc>https://eyalbenmoshe.com/links/vegankingz</loc>
+	<lastmod>2026-09-22T13:15:43+01:00</lastmod>
+	<priority>0.8</priority>
+</url>
+<url>
+	<loc>https://eyalbenmoshe.com/index.html</loc>
+	<lastmod>2026-09-22T13:15:45+01:00</lastmod>
+	<priority>1.0</priority>
+</url>
+<url>
+	<loc>https://eyalbenmoshe.com/recipes/index.html</loc>
+	<lastmod>2026-09-22T13:15:45+01:00</lastmod>
+	<priority>0.8</priority>
+</url>
 </urlset>
